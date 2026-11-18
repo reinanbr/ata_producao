@@ -28,6 +28,13 @@ ata/
 ./gerador_ata/gerar_ata.sh --help        # todas as opções
 ```
 
+Para acompanhar o andamento (quanto falta), rode em outra janela do terminal
+(Ctrl+C fecha só a tela, sem interromper a geração):
+
+```bash
+./gerador_ata/acompanhar.sh
+```
+
 O programa detecta os arquivos sozinho:
 
 - **vídeo:** o de data mais recente no nome;
@@ -70,6 +77,7 @@ transcritos. Ele **não é versionado** porque tem dados pessoais.
 | Arquivo | Função |
 |---|---|
 | `gerar_ata.sh` | atalho que ativa o ambiente e grava o log em `cache/ultimo_log.txt` |
+| `acompanhar.sh` | mostra o andamento (etapa, % da transcrição, tempo restante), atualizando sozinho |
 | `gerar_ata.py` | fluxo principal: transcrição → redação → `.docx` |
 | `entradas.py` | detecção automática dos arquivos e verificações da pauta |
 | `transcribe.py` | extração de áudio + transcrição em blocos de 10 min, com checkpoint |
