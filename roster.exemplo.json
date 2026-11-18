@@ -1,0 +1,16 @@
+{
+  "programa": "Programa de Pós-Graduação em Ciência e Tecnologia Ambiental (PPGCTA)",
+  "coordenador": "Prof. Dr. Nome do Coordenador",
+  "secretario": "Nome do Secretário",
+  "docentes": [
+    "Nome Completo do Docente 1",
+    "Nome Completo do Docente 2"
+  ],
+  "representantes_discentes": [
+    "Nome Completo do Representante 1"
+  ],
+  "observacoes": [
+    "Erros fonéticos comuns do Whisper e a forma correta, ex.: 'Irã'/'Hiran' -> Nome Correto.",
+    "Atualize esta lista manualmente quando o colegiado mudar (novos credenciados, desligamentos etc.)."
+  ]
+}
